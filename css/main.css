@@ -49,3 +49,24 @@ a:hover {
         font-size: 4em;
     }
 }
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0 0;
+}
+
+footer li {
+    display: block;
+}
+
+.contactfooter {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
