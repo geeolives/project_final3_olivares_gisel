@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fcf5ed;
+    font-family: "Lato", sans-serif;
+    font-size: 0.85em;
+    line-height: 150%;
+}
+
+@font-face {
+    font-family: "authenticratatouille";
+    src: url(fonts/authenticratatouille.otf) format("postscript");
+}
+
+@font-face {
+    font-family: "restaurant";
+    src: url(fonts/restaurant.ttf) format("postscript");
+}
