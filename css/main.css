@@ -24,3 +24,22 @@ body {
     font-family: "restaurant";
     src: url(fonts/restaurant.ttf) format("postscript");
 }
+
+h1 {
+    padding: 10px;
+    font-family: "authenticratatouille";
+    color: #e9a252;
+    font-size: 3em;
+}
+
+main {
+    padding: 10px;
+}
+
+a {
+    color: #bf1e2e;
+}
+
+a:hover {
+    color: #e9a252;
+}
