@@ -50,6 +50,7 @@ a:hover {
     }
 }
 
+/* Footer */
 footer {
     padding: 25px 0;
     text-align: center;
@@ -70,3 +71,11 @@ footer li {
     margin-right: auto;
     margin-bottom: 5px;
 }
+
+@media all and (min-width: 500px) {
+    footer li {
+        display: block;
+    }
+}
+
+/* End Footer */
