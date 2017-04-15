@@ -37,3 +37,15 @@ a {
 a:hover {
     color: #e9a252;
 }
+
+@media all and (min-width: 800px) {
+    h1 {
+        font-size: 6em;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    h1 {
+        font-size: 4em;
+    }
+}
