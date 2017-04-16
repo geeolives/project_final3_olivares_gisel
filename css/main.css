@@ -142,3 +142,27 @@ footer a {
 }
 
 /* End Footer */
+.s1 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.s2 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.s3 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.s4 {
+    position: absolute;
+    visibility: hidden;
+}
+
+img.resize {
+    max-width: 25%;
+    max-height: 25%;
+}
