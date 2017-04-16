@@ -14,9 +14,13 @@ body {
     line-height: 150%;
 }
 
-#gusteaus,
-#gusteaus2 {
+#gusteaus {
     margin: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
 }
 
 @font-face {
@@ -28,10 +32,6 @@ body {
     max-width: 1000px;
     margin: 25px auto;
     background-color: #fcf5ed;
-}
-
-#logo {
-	margin: 25px;
 }
 
 h1 {
@@ -67,7 +67,7 @@ nav a {
 
 main {
     padding: 20px;
-		margin: 10px;
+    margin: 10px;
     width: 50%;
     float: left;
 }
@@ -135,6 +135,10 @@ footer a {
     footer li {
         display: block;
     }
+}
+
+#gusteaus2 {
+    margin: 20px;
 }
 
 /* End Footer */
