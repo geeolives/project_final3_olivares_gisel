@@ -67,16 +67,15 @@ nav a {
 
 main {
     padding: 20px;
-    margin: 10px;
-    width: 50%;
+    width: 60%;
     float: left;
 }
 
 aside {
-    width: 40%;
+    width: 30%;
     float: right;
-    padding: 20px;
-    margin: 20px;
+    padding: 25px;
+		text-align: left;
 }
 
 a {
@@ -101,14 +100,15 @@ a:hover {
 
 /* Footer */
 footer {
+    background-color: #103853;
     padding: 15px 0;
     text-align: center;
+    color: white;
 }
 
 footer ul {
     margin: 0;
     padding: 0 0;
-    display: inline-block;
 }
 
 footer li {
@@ -126,6 +126,13 @@ footer a {
     clear: both;
 }
 
+.footercontainer {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
 .hours {
     font-size: 1em;
     letter-spacing: 2px;
@@ -137,8 +144,26 @@ footer a {
     }
 }
 
+/* media query to space out nav buttons when window is at 800px or more */
+
+@media all and (min-width: 800px) {
+    footer li {
+        display: inline-block;
+        width: calc(100% / 4);
+    }
+}
+
 #gusteaus2 {
     margin: 20px;
+}
+
+.socialicons {
+    margin: 40px auto 15px;
+}
+
+.socialicons li {
+    display: inline;
+    margin: 0 10px;
 }
 
 /* End Footer */
@@ -165,4 +190,16 @@ footer a {
 img.resize {
     max-width: 25%;
     max-height: 25%;
+}
+
+@media (min-width: 1000px) {
+    main {
+        float: left;
+        width: calc(100% / 3 * 2);
+    }
+
+    aside {
+        float: right;
+        width: calc(100% / 3);
+    }
 }
