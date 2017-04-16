@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #fcf5ed;
+    background-color: #103853;
     font-family: "Lato", sans-serif;
     line-height: 150%;
 }
@@ -27,8 +27,7 @@ body {
 #container {
     max-width: 1000px;
     margin: 25px auto;
-    background-color: white;
-		align-content: center;
+    background-color: #fcf5ed;
 }
 
 h1 {
