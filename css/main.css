@@ -8,7 +8,8 @@ body {
     line-height: 150%;
 }
 
-#gusteaus {
+#gusteaus,
+#gusteaus2 {
     margin: 25px;
 }
 
@@ -31,7 +32,7 @@ h1 {
 
 /* Navigation */
 nav {
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -84,7 +85,7 @@ a:hover {
 
 /* Footer */
 footer {
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -94,12 +95,26 @@ footer ul {
 }
 
 footer li {
-    display: block;
+    display: inline;
+}
+
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    line-height: 20px;
 }
 
 .footercontainer {
     margin: 0 auto;
+    max-width: 1500px;
     clear: both;
+}
+
+.containerfooter {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
 
 .contactfooter {
@@ -109,9 +124,9 @@ footer li {
     margin-bottom: 50px;
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 750px) {
     .contactfooter li {
-        width: 300px;
+        width: 200px;
     }
 }
 
