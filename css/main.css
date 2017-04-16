@@ -23,6 +23,11 @@ body {
     src: url(fonts/restaurant.ttf) format("postscript");
 }
 
+#container {
+    max-width: 1000px;
+    margin: 25px;
+}
+
 h1 {
     padding: 10px;
     font-family: "authenticratatouille";
@@ -50,10 +55,6 @@ nav a {
     padding: 15px 30px;
     font-size: 1.2em;
     line-height: 20px;
-}
-
-.container {
-    width: 1000px;
 }
 
 main {
@@ -105,34 +106,12 @@ footer a {
 }
 
 .footercontainer {
-    margin: 0 auto;
     max-width: 1500px;
     clear: both;
 }
 
-.containerfooter {
-    max-width: 750px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-}
-
-.contactfooter {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-
-@media all and (min-width: 750px) {
-    .contactfooter li {
-        width: 200px;
-    }
-}
-
 .hours {
     font-size: 1em;
-    margin: 0;
     letter-spacing: 2px;
 }
 
