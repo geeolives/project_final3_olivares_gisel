@@ -24,8 +24,8 @@ body {
 }
 
 #container {
-    max-width: 1000px;
-    margin: 25px;
+    max-width: 1500px;
+
 }
 
 h1 {
@@ -58,10 +58,10 @@ nav a {
 }
 
 main {
+    width: 50%;
     float: left;
-    padding-top: 30px;
-    padding-left: 10px;
-    margin-left: 10px;
+		clear: both;
+		padding-left: 25px;
 }
 
 a {
