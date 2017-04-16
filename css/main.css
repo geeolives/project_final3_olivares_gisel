@@ -75,7 +75,6 @@ aside {
     width: 30%;
     float: right;
     padding: 25px;
-		text-align: left;
 }
 
 a {
@@ -84,18 +83,6 @@ a {
 
 a:hover {
     color: #bf1e2e;
-}
-
-@media all and (min-width: 800px) {
-    h1 {
-        font-size: 6em;
-    }
-}
-
-@media all and (min-width: 1000px) {
-    h1 {
-        font-size: 4em;
-    }
 }
 
 /* Footer */
@@ -202,4 +189,25 @@ img.resize {
         float: right;
         width: calc(100% / 3);
     }
+}
+
+/* media query for iPhone 6 */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    main {
+        float: left;
+        width: calc(100% / 2);
+    }
+
+		aside {
+			float: right;
+			width: calc(100% / 2);
+		}
+
+		footer li {
+				display: block;
+		}
 }
