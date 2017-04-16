@@ -39,7 +39,7 @@ h1 {
 /* Navigation */
 nav {
     padding: 15px 0;
-		margin-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ footer {
 footer ul {
     margin: 0;
     padding: 0 0;
-		display: inline-block;
+    display: inline-block;
 }
 
 footer li {
