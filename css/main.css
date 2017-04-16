@@ -25,8 +25,10 @@ body {
 }
 
 #container {
-    max-width: 1200px;
-    margin: 25px;
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: white;
+		align-content: center;
 }
 
 h1 {
@@ -65,7 +67,7 @@ main {
 }
 
 aside {
-    width: 30%;
+    width: 40%;
     float: right;
     padding: 10px;
 }
@@ -103,16 +105,16 @@ footer ul {
 }
 
 footer li {
-    display: inline;
+    display: block;
 }
 
 footer a {
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 0;
     line-height: 20px;
 }
 
-.footercontainer {
+.fcontainer {
+    margin: 0 auto;
     max-width: 1500px;
     clear: both;
 }
