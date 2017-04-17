@@ -259,7 +259,7 @@ iframe {
     and (min-device-width: 768px)
     and (max-device-width: 1024px) {
     html {
-        width: 65%;
+        width: 100%;
     }
 
     nav li {
@@ -267,8 +267,12 @@ iframe {
     }
 
     main {
-        float: left;
-        width: calc(100% / 4 * 2);
+        width: 100%;
+        text-align: center;
+    }
+
+    .location {
+        width: 90%;
     }
 
     footer li {
