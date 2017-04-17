@@ -269,12 +269,13 @@ img.resize {
 
 /* Location Page */
 .header1 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+	padding: 20px;
+  margin: 10px;
+  font-size: 3em;
+	line-height: 60px;
 }
 
-.location-container {
+.content {
     margin: 0 auto;
     max-width: 1000px;
     margin-bottom: 20px;
@@ -285,10 +286,6 @@ img.resize {
     margin: 0 25px;
     text-align: center;
     float: left;
-}
-
-iframe {
-    width: 150%;
 }
 
 @media all and (min-width: 750px) {
