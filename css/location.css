@@ -266,8 +266,8 @@ iframe {
         display: block;
     }
 
-    main {
-        width: 100%;
+    h1 {
+
         text-align: center;
     }
 
@@ -278,5 +278,50 @@ iframe {
     footer li {
         display: block;
         line-height: 40px;
+    }
+}
+
+/* media query for iPhone 6 */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+    html {
+        width: 100%;
+    }
+
+    #gusteaus {
+        width: 50%;
+    }
+
+    #gusteaus2 {
+        width: 25%;
+    }
+
+    nav li {
+        display: block;
+        width: calc(100% / 2 * 2);
+    }
+
+    h1 {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .location {
+        width: 90%;
+    }
+
+    footer li {
+        display: block;
+        line-height: 30px;
+    }
+
+    .socialicons {
+        width: 100%;
     }
 }
