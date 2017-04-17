@@ -79,6 +79,8 @@ aside {
 
 a {
     color: #e9a252;
+    font-family: "authenticratatouille";
+    font-size: 1.5em;
 }
 
 a:hover {
@@ -225,6 +227,7 @@ img.resize {
 
     footer li {
         display: block;
+        line-height: 30px;
     }
 
     .hours {
@@ -256,5 +259,6 @@ img.resize {
 
     footer li {
         display: block;
+        line-height: 40px;
     }
 }
