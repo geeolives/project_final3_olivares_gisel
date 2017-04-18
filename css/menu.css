@@ -70,6 +70,10 @@ main {
     padding: 20px;
 }
 
+main li {
+    display: block;
+}
+
 a {
     color: #e9a252;
     font-family: "authenticratatouille";
@@ -111,11 +115,56 @@ a:hover {
     padding-top: 20px;
 }
 
+#salmon {
+    margin-top: 20px;
+}
+
+#smokedsalmon {
+    padding-top: 20px;
+}
+
+#fish {
+    margin-top: 20px;
+}
+
+#codfish {
+    padding-top: 20px;
+}
+
+#beef {
+    margin-top: 20px;
+}
+
+#beeffillet {
+    padding-top: 20px;
+}
+
+#chocolate {
+    margin-top: 20px;
+}
+
+#mousse {
+    padding-top: 20px;
+}
+
+#tarte {
+    margin-top: 20px;
+}
+
+#tatin {
+    padding-top: 20px;
+}
+
 @media all and (min-width: 1000px) {
     .menu {
         clear: both;
         padding: 50px 0 0 20px;
     }
+}
+
+#scroll {
+    width: 10%;
+    float: right;
 }
 
 /* Footer */
@@ -270,45 +319,12 @@ img.resize {
         display: block;
         line-height: 40px;
     }
-}
-
-/* media query for iPhone 6 */
-
-/* @media only screen
-    and (min-device-width: 375px)
-    and (max-device-width: 667px) {
-    html {
-        width: 100%;
-    }
 
     #gusteaus {
         width: 50%;
     }
 
-    #gusteaus2 {
-        width: 25%;
+    .menu {
+        display: inline-block;
     }
-
-    nav li {
-        display: block;
-        width: calc(100% / 2 * 2);
-    }
-
-    h1 {
-        line-height: 30px;
-        text-align: center;
-    }
-
-    main {
-        width: 100%;
-    }
-
-    footer li {
-        display: block;
-        line-height: 30px;
-    }
-
-    .socialicons {
-        width: 100%;
-    }
-} */
+}
