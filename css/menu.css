@@ -191,6 +191,12 @@ img.resize {
     margin-bottom: 20px;
 }
 
+/* @media all and (max-width: 1000px) {
+    .content {
+        padding: 10px 20px;
+    }
+} */
+
 .location {
     padding: 10px;
     margin: 0 25px;
