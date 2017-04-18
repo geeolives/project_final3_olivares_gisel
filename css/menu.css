@@ -200,6 +200,12 @@ img.resize {
     clear: both;
 }
 
+@media all and (min-width: 1000px) {
+    .menu {
+        clear: both;
+    }
+}
+
 /* media query for iPhone 6 */
 
 @media only screen
