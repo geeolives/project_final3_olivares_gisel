@@ -1,3 +1,4 @@
+//JavaScript for Remy Mouse//
 var standardbody = (document.compatMode === 'CSS1Compat') ? document.documentElement : document.body;
 
 var nav = (!document.all || window.opera);
