@@ -203,7 +203,7 @@ img.resize {
     and (min-device-width: 375px)
     and (max-device-width: 667px) {
     html {
-        width: 75%;
+        width: 100%;
     }
 
     #gusteaus {
@@ -221,12 +221,12 @@ img.resize {
 
     main {
         float: left;
-        width: calc(100% / 4 * 2);
+        width: 100%;
     }
 
     aside {
-        float: right;
-        width: calc(100% / 2 * 1);
+        float: left;
+        width: 100%;
     }
 
     footer li {
@@ -244,26 +244,43 @@ img.resize {
     and (min-device-width: 768px)
     and (max-device-width: 1024px) {
     html {
-        width: 75%;
+        width: 100%;
+    }
+
+    #gusteaus {
+        width: 50%;
+    }
+
+    #remy {
+        width: 80%;
     }
 
     nav li {
         display: block;
+        font-size: 1.5em;
     }
 
     main {
         float: left;
-        width: calc(100% / 4 * 2);
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 35px;
     }
 
     aside {
-        float: right;
-        width: calc(100% / 2);
+        float: left;
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 35px;
     }
 
     .footercontainer {
         display: block;
-        line-height: 40px;
+        line-height: 50px;
+    }
+
+    footer {
+        font-size: 1.5em;
     }
 
 }
