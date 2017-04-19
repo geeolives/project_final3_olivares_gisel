@@ -222,7 +222,7 @@ iframe {
     and (min-device-width: 768px)
     and (max-device-width: 1024px) {
     html {
-        width: 80%;
+        width: 100%;
     }
 
     #gusteaus {
@@ -266,6 +266,52 @@ iframe {
 }
 
 /* media query for iPhone 6 */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+    html {
+        width: 100%;
+    }
+
+    #gusteaus {
+        width: 50%;
+    }
+
+    #gusteaus2 {
+        width: 25%;
+    }
+
+    nav li {
+        display: block;
+        width: calc(100% / 2 * 2);
+    }
+
+    h1 {
+        line-height: 50px;
+        text-align: center;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .location {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer li {
+        display: block;
+        line-height: 30px;
+    }
+
+    .socialicons {
+        width: 100%;
+    }
+}
+
+/* iPhone 6 landscape */
 
 @media only screen
     and (min-device-width: 375px)
