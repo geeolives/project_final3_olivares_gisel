@@ -60,16 +60,24 @@ function addh4() {
 
 menuh1.addEventListener('click', addh4);
 
-//Custom jQuery code to add hover effect to social media icons.
-$('li').hover(
-    function () {
-        $(this).append($('<span> </span>'));
+// Custom jQuery code to add hover effect to social media icons.
+$(document).ready(function () {
+// Custom jQuery hover effect for Facebook icon on all pages
+    $('.fb').hover(function () {
+        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/fb-hover.png');
     }, function () {
-    $(this).find('span:last').remove();
-}
-);
-
-$('li.fade').hover(function () {
-    $(this).fadeOut(100);
-    $(this).fadeIn(500);
+        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/fbicon.png');
+    });
+// Custom jQuery hover effect for Instagram icon on all pages
+    $('.ig').hover(function () {
+        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/ig-hover.png');
+    }, function () {
+        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/igicon.png');
+    });
+// Custom jQuery hover effect for Twitter icon on all pages
+    $('.twitter').hover(function () {
+        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/twitter-hover.png');
+    }, function () {
+        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/twittericon.png');
+    });
 });
