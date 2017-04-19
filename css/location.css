@@ -277,7 +277,7 @@ iframe {
     and (min-device-width: 667px)
     and (max-device-width: 375px) {
     html {
-        width: 0%;
+        width: 30%;
     }
 
     #gusteaus {
