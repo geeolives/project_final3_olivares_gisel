@@ -64,20 +64,20 @@ menuh1.addEventListener('click', addh4);
 $(document).ready(function () {
 // Custom jQuery hover effect for Facebook icon on all pages
     $('.fb').hover(function () {
-        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/fb-hover.png');
+        $(this).attr('src', 'fb-hover.png');
     }, function () {
-        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/fbicon.png');
+        $(this).attr('src', 'fbicon.png');
     });
 // Custom jQuery hover effect for Instagram icon on all pages
     $('.ig').hover(function () {
-        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/ig-hover.png');
+        $(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/ig-hover.png');
     }, function () {
-        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/igicon.png');
+        $(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/igicon.png');
     });
 // Custom jQuery hover effect for Twitter icon on all pages
     $('.twitter').hover(function () {
-        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/twitter-hover.png');
+        $(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twitter-hover.png');
     }, function () {
-        $(this).attr('src', 'http://www.geeolives.com/project_final3_olivares_gisel/img/twittericon.png');
+        $(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twittericon.png');
     });
 });
