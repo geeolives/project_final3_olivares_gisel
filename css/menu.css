@@ -271,8 +271,8 @@ img.resize {
     and (min-device-width: 375px)
     and (max-device-width: 667px) {
 
-    body {
-        width: 100%;
+    html {
+        width: 80%;
     }
 
     #gusteaus {
