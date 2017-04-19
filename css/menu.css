@@ -272,7 +272,7 @@ img.resize {
     and (max-device-width: 667px) {
 
     html {
-        width: 80%;
+        width: 100%;
     }
 
     #gusteaus {
@@ -282,10 +282,6 @@ img.resize {
     nav li {
         display: block;
         width: 100%;
-    }
-
-    h1 {
-        font-size: 2em;
     }
 
     footer li {
