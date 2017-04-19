@@ -274,13 +274,29 @@ img.resize {
         width: 100%;
     }
 
+    #appetizers {
+        padding-top: 30px;
+    }
+
+    #entrees {
+        padding-top: 70px;
+    }
+
+    #desserts {
+        padding-top: 110px;
+    }
+
+    #beverages {
+        padding-top: 60px;
+    }
+
     footer li {
         display: block;
         line-height: 30px;
     }
 
     #scroll {
-        width: 20%;
+        width: 15%;
     }
 }
 
