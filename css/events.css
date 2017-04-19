@@ -1,0 +1,264 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #bf1e2e;
+    font-family: "Lato", sans-serif;
+    line-height: 150%;
+}
+
+#gusteaus {
+    margin: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+@font-face {
+    font-family: "authenticratatouille";
+    src: url(fonts/authenticratatouille.otf) format("postscript");
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fcf5ed;
+}
+
+h1 {
+    font-family: "authenticratatouille";
+    color: #e9a252;
+    font-size: 3em;
+}
+
+/* Navigation */
+nav {
+    padding: 5px 0;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #103853;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 30px;
+    line-height: 20px;
+}
+
+/* End Nav */
+a {
+    color: #e9a252;
+    font-family: "authenticratatouille";
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #bf1e2e;
+}
+
+#scroll {
+    width: 10%;
+    float: right;
+}
+
+/* Footer */
+footer {
+    background-color: #103853;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0 0;
+}
+
+footer li {
+    display: block;
+}
+
+footer a {
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.fcontainer {
+    margin: 0 auto;
+    max-width: 1500px;
+    clear: both;
+}
+
+.footercontainer {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+}
+
+@media all and (min-width: 500px) {
+    footer li {
+        display: block;
+    }
+}
+
+/* media query to space out nav buttons when window is at 800px or more */
+
+@media all and (min-width: 800px) {
+    footer li {
+        display: inline-block;
+        width: calc(100% / 4);
+    }
+}
+
+#gusteaus2 {
+    margin: 20px;
+}
+
+.socialicons {
+    margin: 40px auto 15px;
+}
+
+.socialicons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socialicons a:hover {
+    opacity: 0.7;
+}
+
+/* End Footer */
+.s1 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.s2 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.s3 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.s4 {
+    position: absolute;
+    visibility: hidden;
+}
+
+img.resize {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+/* media query for iPhone 6 */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+
+    html {
+        width: 80%;
+    }
+
+    #gusteaus {
+        width: 50%;
+    }
+
+    nav li {
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    footer li {
+        display: block;
+        line-height: 30px;
+    }
+
+    #scroll {
+        width: 20%;
+    }
+}
+
+/* ----------- iPad 3 and 4 ----------- Portrait and Landscape */
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    body {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    h1 {
+
+        text-align: center;
+    }
+
+    .footercontainer {
+        display: block;
+        line-height: 50px;
+    }
+
+    #gusteaus {
+        width: 50%;
+    }
+
+    #gusteaus2 {
+        width: 25%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    #scroll {
+        width: 10%;
+    }
+
+    #appetizers {
+        padding-top: 75px;
+    }
+
+    #entrees {
+        padding-top: 75px;
+    }
+
+    #desserts {
+        padding-top: 90px;
+    }
+
+    #beverages {
+        padding-top: 70px;
+    }
+}
