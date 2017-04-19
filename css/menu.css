@@ -85,12 +85,12 @@ a:hover {
 }
 
 #scrollUp {
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 10px;
-  background: #e9a252;
-  color: #fff;
-	opacity: 0.8;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 10px;
+    background: #e9a252;
+    color: #ffffff;
+    opacity: 0.8;
 }
 
 /* Menu CSS */
@@ -304,11 +304,11 @@ img.resize {
         line-height: 30px;
     }
 
-		#scrollUp {
-		bottom: 10px;
-		right: 20px;
-		padding: 10px 10px;
-	 }
+    #scrollUp {
+        bottom: 10px;
+        right: 20px;
+        padding: 10px 10px;
+    }
 }
 
 /* ----------- iPad 3 and 4 ----------- Portrait and Landscape */
@@ -346,11 +346,11 @@ img.resize {
         display: block;
     }
 
-		#scrollUp {
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 10px;
-		}
+    #scrollUp {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 10px;
+    }
 
     #appetizers {
         padding-top: 75px;
