@@ -35,8 +35,6 @@ body {
 }
 
 h1 {
-    padding: 20px;
-    margin: 10px;
     font-family: "authenticratatouille";
     color: #e9a252;
     font-size: 3em;
@@ -65,8 +63,9 @@ nav a {
     line-height: 20px;
 }
 
-main li {
-    display: block;
+main {
+    padding: 25px;
+    margin: 10px;
 }
 
 /* End Nav */
@@ -81,7 +80,7 @@ a:hover {
 }
 
 #scroll {
-    width: 10%;
+    width: 5%;
     float: right;
 }
 
