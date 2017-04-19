@@ -1,22 +1,15 @@
-// Custom jQuery code that adds interactivity - adds hover effect to social media icons
-$(document).ready(function () {
-    $('.fb').hover(function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/fb-hover.png');
-		}, function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/fbicon.png');
-		});
-
-		$('.ig').hover(function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/ig-hover.png');
-		}, function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/igicon.png');
-		});
-
-		$('.twitter').hover(function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twitter-hover.png');
-		}, function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twittericon.png');
-		});
+// First jQuery plugin requirement - scrollUp jQuery plugin
+$(function () {
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: 'Scroll to top', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
 });
 
 //JavaScript for Remy Mouse effect//

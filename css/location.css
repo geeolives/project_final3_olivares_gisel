@@ -221,14 +221,6 @@ iframe {
     }
 }
 
-#scrollUp {
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background: #555;
-  color: #fff;
-}
-
 /* ----------- iPad 3 and 4 ----------- Portrait and Landscape */
 @media only screen
     and (min-device-width: 768px)
