@@ -1,16 +1,3 @@
-//Custom JavaScript that uses document.getElementById to create a new h4 that says "Bon Appetit" on the menu page under "Our Menu" once the H1 tag of "Our Menu" is clicked. The id for Menu H1 is 'menuh1'. The event listener is click, which is then added to 'menuh1'. I made "Our Menu" a link that leads no where so that people are curious to click it; once they do they'll be presented with a "Bon Appetit!"
-
-var menuh1 = document.getElementById('menuh1');
-
-function addh4 () {
-	var newtext = document.createElement('h4');
-	newtext.innerHTML = 'Bon Appetit!';
-	document.getElementById('menuh1').appendChild(newtext);
-	menuh1.removeEventListener('click', addh4) // to avoid repetition
-}
-
-menuh1.addEventListener('click', addh4);
-
 //JavaScript for Remy Mouse//
 var standardbody = (document.compatMode === 'CSS1Compat') ? document.documentElement : document.body;
 
@@ -59,3 +46,16 @@ function fade(n) {
         clearTimeout(tmr);
     }
 }
+
+//Custom JavaScript that uses document.getElementById to create a new h4 that says "Bon Appetit" on the menu page under "Our Menu" once the H1 tag of "Our Menu" is clicked. The id for Menu H1 is 'menuh1'. The event listener is click, which is then added to 'menuh1'. I made "Our Menu" a link that leads no where so that people are curious to click it; once they do they'll be presented with a "Bon Appetit!"
+
+var menuh1 = document.getElementById('menuh1');
+
+function addh4() {
+    var newtext = document.createElement('h4');
+    newtext.innerHTML = 'Bon Appetit!';
+    document.getElementById('menuh1').appendChild(newtext);
+    menuh1.removeEventListener('click', addh4); // to avoid repetition
+}
+
+menuh1.addEventListener('click', addh4);
