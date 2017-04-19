@@ -68,6 +68,11 @@ main {
     margin: 10px;
 }
 
+figcaption {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
 /* End Nav */
 a {
     color: #e9a252;

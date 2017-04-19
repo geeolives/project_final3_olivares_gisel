@@ -69,6 +69,11 @@ main {
     padding: 20px;
 }
 
+figcaption {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
 a {
     color: #e9a252;
     font-family: "authenticratatouille";
