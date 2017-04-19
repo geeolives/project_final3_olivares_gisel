@@ -1,4 +1,25 @@
-//JavaScript for Remy Mouse//
+// Custom jQuery code to add hover effect to social media icons.
+$(document).ready(function () {
+    $('.fb').hover(function () {
+			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/fb-hover.png');
+		}, function () {
+			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/fbicon.png');
+		});
+
+		$('.ig').hover(function () {
+			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/ig-hover.png');
+		}, function () {
+			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/igicon.png');
+		});
+
+		$('.twitter').hover(function () {
+			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twitter-hover.png');
+		}, function () {
+			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twittericon.png');
+		});
+});
+
+//JavaScript for Remy Mouse effect//
 var standardbody = (document.compatMode === 'CSS1Compat') ? document.documentElement : document.body;
 
 var nav = (!document.all || window.opera);
@@ -60,23 +81,18 @@ function addh4() {
 
 menuh1.addEventListener('click', addh4);
 
-// Custom jQuery code to add hover effect to social media icons.
-$(document).ready(function () {
-    $('.fb').hover(function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/fb-hover.png');
-		}, function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/fbicon.png');
-		});
-
-		$('.ig').hover(function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/ig-hover.png');
-		}, function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/igicon.png');
-		});
-
-		$('.twitter').hover(function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twitter-hover.png');
-		}, function () {
-			$(this).attr('src', 'http://geeolives.com/project_final3_olivares_gisel/img/twittericon.png');
-		});
+// First jQuery Plugin
+$(function () {
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: 'Scroll to top', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
 });
+
+// Second jQuery Plugin
