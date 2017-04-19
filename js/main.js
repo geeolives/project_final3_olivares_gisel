@@ -1,3 +1,7 @@
+//Custom JavaScript that uses document.getElementById to create a new h2 that says "Bon Appetit" on the menu page once the H1 tag is selected. The id for Menu H1 is 'menuh1'. The event listener is progress, which is then added to 'menuh1'.
+
+
+
 //JavaScript for Remy Mouse//
 var standardbody = (document.compatMode === 'CSS1Compat') ? document.documentElement : document.body;
 
