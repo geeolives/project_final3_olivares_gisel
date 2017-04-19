@@ -185,7 +185,7 @@ img.resize {
     and (max-device-width: 667px) {
 
     html {
-        width: 80%;
+        width: 100%;
     }
 
     #gusteaus {
@@ -242,27 +242,7 @@ img.resize {
         width: 25%;
     }
 
-    .menu {
-        display: block;
-    }
-
     #scroll {
         width: 10%;
-    }
-
-    #appetizers {
-        padding-top: 75px;
-    }
-
-    #entrees {
-        padding-top: 75px;
-    }
-
-    #desserts {
-        padding-top: 90px;
-    }
-
-    #beverages {
-        padding-top: 70px;
     }
 }
