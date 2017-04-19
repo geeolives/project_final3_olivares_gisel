@@ -181,17 +181,12 @@ footer ul {
 }
 
 footer li {
-    display: block;
-}
-
-footer a {
-    padding: 10px 0;
-    line-height: 20px;
+    display: inline-block;
 }
 
 .fcontainer {
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1000px;
     clear: both;
 }
 
@@ -200,11 +195,6 @@ footer a {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 25px;
-}
-
-.hours {
-    font-size: 1em;
-    letter-spacing: 2px;
 }
 
 @media all and (min-width: 500px) {
